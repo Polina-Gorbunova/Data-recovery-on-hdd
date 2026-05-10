@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Выводы</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .conclusion-block {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+      padding: 2rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: var(--radius);
+      margin-bottom: 1.5rem;
+      transition: border-color .2s, transform .2s;
+    }
+    .conclusion-block:hover {
+      border-left-color: var(--accent2);
+      transform: translateX(4px);
+    }
+    .conclusion-num {
+      flex-shrink: 0;
+      font-family: var(--font-mono);
+      font-size: 2rem;
+      font-weight: 800;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+      min-width: 2.5rem;
+    }
+    .conclusion-body h3 {
+      color: var(--text);
+      font-size: 1.1rem;
+      margin-bottom: .6rem;
+    }
+    .conclusion-body p {
+      color: var(--text-muted);
+      margin: 0;
+      font-size: .95rem;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html"><span class="dot"></span>Восстановление данных</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="1-1.html">1.1 Характеристики</a></li>
+    <li><a href="1-2.html">1.2 Состав HDD</a></li>
+    <li><a href="1-3.html">1.3 Программы</a></li>
+    <li><a href="1-4.html">1.4 Методы</a></li>
+    <li><a href="conclusions.html" class="active">Выводы</a></li>
+    <li><a href="references.html">Литература</a></li>
+  </ul>
+  <div class="nav-cta"><a href="references.html" class="btn btn-primary">Литература →</a></div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <span class="label">Глава 1</span>
+    <h1>Выводы</h1>
+    <p>Результаты обзора технических возможностей жёстких дисков, программного обеспечения и методов восстановления данных.</p>
+  </div>
+
+  <section>
+    <div class="container" style="max-width:860px;">
+
+      <div class="conclusion-block fade-up">
+        <div class="conclusion-num">01</div>
+        <div class="conclusion-body">
+          <h3>Технические характеристики как основа восстановления</h3>
+          <p>
+            Жёсткий диск представляет собой сложное электромеханическое устройство, технические характеристики которого — форм-фактор, интерфейс, ёмкость, скорость вращения шпинделя, объём буфера, время доступа, надёжность — напрямую влияют на его производительность, область применения и специфику восстановления данных в случае нештатных ситуаций.
+          </p>
+        </div>
+      </div>
+
+      <div class="conclusion-block fade-up fade-up-1">
+        <div class="conclusion-num">02</div>
+        <div class="conclusion-body">
+          <h3>Конструктивные части и их роль</h3>
+          <p>
+            Конструктивно жёсткий диск состоит из двух основных функциональных частей — гермозоны и блока электроники. В гермозоне размещены магнитные пластины, блок головок, шпиндельный двигатель и система позиционирования, состояние которых критически важно для возможности считывания данных. Блок электроники обеспечивает управление всеми компонентами накопителя и взаимодействие с компьютером.
+          </p>
+        </div>
+      </div>
+
+      <div class="conclusion-block fade-up fade-up-2">
+        <div class="conclusion-num">03</div>
+        <div class="conclusion-body">
+          <h3>Широкий рынок программных средств</h3>
+          <p>
+            Современный рынок программного обеспечения для восстановления данных представлен широким спектром решений — от бесплатных утилит с открытым исходным кодом (PhotoRec, TestDisk, ddrescue) до профессиональных коммерческих продуктов (EaseUS Data Recovery Wizard, Disk Drill, Wondershare Recoverit, Stellar Data Recovery) и специализированных программно-аппаратных комплексов (PC-3000).
+          </p>
+        </div>
+      </div>
+
+      <div class="conclusion-block fade-up fade-up-3">
+        <div class="conclusion-num">04</div>
+        <div class="conclusion-body">
+          <h3>Классификация методов восстановления</h3>
+          <p>
+            Методы восстановления данных классифицируются на программные, аппаратные и программно-аппаратные. Выбор конкретного метода определяется характером и степенью повреждения накопителя. Программные методы эффективны при логических проблемах, аппаратные — при физических повреждениях компонентов, а программно-аппаратные занимают промежуточное положение, обеспечивая низкоуровневый доступ к накопителю.
+          </p>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Summary cards -->
+      <h2 style="margin-bottom:1.5rem;">Ключевые итоги</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">🔗</div>
+          <h4>Взаимосвязь характеристик</h4>
+          <p>Высокая скорость вращения при механических повреждениях усиливает разрушение пластин, а большой буфер усложняет анализ ещё не записанных данных.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🧪</div>
+          <h4>Чистые помещения необходимы</h4>
+          <p>При аппаратном восстановлении даже мельчайшие частицы пыли внутри гермозоны могут привести к необратимым повреждениям пластин и блока головок.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📈</div>
+          <h4>SMR усложняет восстановление</h4>
+          <p>Технология черепичной магнитной записи требует особого подхода: перекрытие дорожек не позволяет использовать стандартные алгоритмы чтения.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚖️</div>
+          <h4>Гибридные стратегии</h4>
+          <p>Сочетание оперативности анализа служебной информации с глубиной побайтового сканирования позволяет достичь баланса точности и эффективности.</p>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Navigation between sections -->
+      <span class="label">Разделы главы 1</span>
+      <div class="card-grid">
+        <a href="1-1.html" class="card" style="text-decoration:none;">
+          <h4 style="color:var(--accent);">1.1 →</h4>
+          <p style="margin:0;">Технические характеристики жёстких дисков</p>
+        </a>
+        <a href="1-2.html" class="card" style="text-decoration:none;">
+          <h4 style="color:var(--accent);">1.2 →</h4>
+          <p style="margin:0;">Состав жёстких дисков</p>
+        </a>
+        <a href="1-3.html" class="card" style="text-decoration:none;">
+          <h4 style="color:var(--accent);">1.3 →</h4>
+          <p style="margin:0;">Программное обеспечение для восстановления данных</p>
+        </a>
+        <a href="1-4.html" class="card" style="text-decoration:none;">
+          <h4 style="color:var(--accent);">1.4 →</h4>
+          <p style="margin:0;">Основные методы восстановления данных</p>
+        </a>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<div class="container">
+  <div class="page-nav">
+    <a href="1-4.html">← 1.4 Методы восстановления</a>
+    <a href="references.html">Список литературы →</a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">Главная</a>
+    <a href="1-1.html">1.1</a><a href="1-2.html">1.2</a>
+    <a href="1-3.html">1.3</a><a href="1-4.html">1.4</a>
+    <a href="conclusions.html">Выводы</a><a href="references.html">Литература</a>
+  </div>
+  <p>© 2026 Образовательная платформа. Все права защищены</p>
+</footer>
+</body>
+</html>
